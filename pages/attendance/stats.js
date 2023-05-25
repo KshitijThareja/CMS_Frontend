@@ -15,7 +15,7 @@ const Stats = (props) => {
       name: 'Attendance',
     },
     {
-      path: '/attendance-stats',
+      path: '/attendance/stats',
       name: 'Attendance Statistics',
     },
   ];

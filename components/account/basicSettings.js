@@ -206,7 +206,7 @@ query user($username: String!){
               <div className="col-md-3">
                 <img
                   alt="profilepic"
-                  src={`https://api.amfoss.in/${profilePic}`}
+                  src={`http://127.0.0.1:8000/${profilePic}`}
                   style={{ height: '30vh' }}
                   className="p-2"
                 />

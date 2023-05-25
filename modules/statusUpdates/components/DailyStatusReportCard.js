@@ -24,7 +24,7 @@ const DailyStatusReportCard = ({ data, isLoaded }) => {
                 <Avatar
                   src={
                     m.member.profile.profilePic
-                      ? `https://api.amfoss.in/${m.member.profile.profilePic}`
+                      ? `http://127.0.0.1:8000/${m.member.profile.profilePic}`
                       : `https://avatars.githubusercontent.com/${m.member.avatar.githubUsername}`
                   }
                 />

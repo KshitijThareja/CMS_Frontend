@@ -127,7 +127,7 @@ const Rankings = ({ isRangeSet, startDate, endDate }) => {
               <Avatar
                 src={
                   m.user.profile.profilePic
-                    ? `https://api.amfoss.in/${m.user.profile.profilePic}`
+                    ? `http://127.0.0.1:8000/${m.user.profile.profilePic}`
                     : `https://avatars.githubusercontent.com/${m.user.avatar.githubUsername}`
                 }
               />

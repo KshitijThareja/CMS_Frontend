@@ -95,7 +95,7 @@ const Messages = (props) => {
                       <Avatar
                         src={
                           message.member.profile.profilePic
-                            ? `https://api.amfoss.in/${message.member.profile.profilePic}`
+                            ? `http://127.0.0.1:8000/${message.member.profile.profilePic}`
                             : `https://avatars.githubusercontent.com/${message.member.avatar.githubUsername}`
                         }
                       />

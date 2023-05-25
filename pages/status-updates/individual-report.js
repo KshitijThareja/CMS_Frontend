@@ -91,7 +91,7 @@ const IndividualReport = (props) => {
                     <Avatar
                       src={
                         report.member.profile.profilePic
-                          ? `https://api.amfoss.in/${report.member.profile.profilePic}`
+                          ? `http://127.0.0.1:8000/${report.member.profile.profilePic}`
                           : `https://avatars.githubusercontent.com/${report.member.avatar.githubUsername}`
                       }
                     />

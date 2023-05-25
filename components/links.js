@@ -90,7 +90,7 @@ export const links = [
   },
   {
     title: 'Leave Request',
-    key: 'leave-request',
+    key: 'leave',
     icon: <CarryOutOutlined />,
     items: [
       {
